@@ -1,0 +1,168 @@
+ * {
+    box-sizing: border-box;
+  }
+
+
+body {
+    background-color:rgb(255 255 255);
+    font-family: 'Montserrat', sans-serif;
+    width:90%;
+    display: block;
+    margin-left: 70px;
+
+  }
+  
+ 
+  
+.headerpic{
+    width: 100%;
+    height:800px;
+}
+
+.hedtitel{
+    font-size: 45px;
+    font-family: fantasy;
+}
+
+
+
+
+.parg{
+  margin-top: 50px;
+    font-size: 23px;
+    font-family: inherit;
+    color: #524e4e;
+}
+
+.list{
+  margin-top: 15px;
+  width: 100%;
+  height: 395px;
+}
+
+.form{
+  padding-top: 26px;
+    padding-left: 49px;
+    font-size: 25px;
+    font-family: Comic Sans MS;
+}
+
+.separator{
+  display:flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.separator .line{
+  height: 1px;
+  flex: 1;
+  background-color: #999;
+}
+
+.separator img{
+  width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.center{text-align: center;
+  font-size: 18px;
+  color: gray;
+  font-family: emoji;}
+
+  /* header{
+    margin-top: 24px;
+    margin-left: 10px;
+} */
+.bigdiv{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.nav{
+    float: left;
+    width: 100%;
+}
+.logo{
+  float: left;
+  width: 62px;
+  display: inline;
+}
+.hed2{
+  font-size: 45px;
+    font-weight: bold;
+    /* font-family: cursive; */
+   
+    font-family: Brush Script MT;
+  
+    color: black;
+}
+
+ .hed6{
+  text-transform: uppercase;
+    font-size: revert;
+    color: grey;
+    margin-left: 11px;
+    margin-top: -9px;
+    float: left;
+}
+.logoright{
+    float: right;
+    margin-right: 150px;
+}
+.img1{
+    margin-right: -2px;
+    width: 35px;
+}
+.img2{
+    margin-right: -2px;
+    width: 35px;
+}
+.img3{
+    margin-right: -2px;
+    margin-right: 5px;
+    width: 35px;
+}
+
+.foter{
+    margin-top: 30px;
+    float: left;
+    display: inline-block;
+    width: 100%;
+}
+.van{
+    float: left;
+    margin-left: 30px;
+}
+.p{
+    margin-left: 120px;
+}
+.span{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.last{
+    font-size: 20px;
+    color: grey;
+}
+footer{
+    clear: both;
+}
+ .all{
+     width: clac(100%/2);
+     float: left;
+ }
+ .button1{
+     margin-right: 150px;
+ }
+ .button{
+    width: calc(100%/6);
+    float: right;
+    margin-top: 13px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: rgb(214, 52, 52);
+    color: white;
+    font-size: 16px;
+    /* background-color: ; */
+ }
